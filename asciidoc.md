@@ -1,5 +1,5 @@
 = Comparison of Five Research Papers on Speech Technologies
-:author: Your Name
+:author: Tobias Martens
 :date: 2025-07-25
 :toc: left
 :sectnums:
@@ -14,30 +14,30 @@ This document compares five academic papers based on the following aspects:
 
 == Paper Comparison Table
 
-[cols="1,3,3,1", options="header"]
+[cols="1,2,2,2,2,2", options="header"]
 |===
 |Aspect | Paper 1 | Paper 2 | Paper 3 | Paper 4 | Paper 5
 
 |**Authors, Title, Journal, Year**
-|Doe et al., "Neural TTS Advances", *IEEE TASLP*, 2023
-|Smith & Lee, "Speech Prosody Modeling", *Speech Comm.*, 2022
-|Kim et al., "Review of TTS Systems", *Computer Speech & Language*, 2021
-|Nguyen et al., "Read-Aloud Speech Synthesis", *ICASSP*, 2024
-|Ali et al., "Evaluation Metrics for TTS", *JASA*, 2020
+|Brungart, "Informational and Energetic Masking Effects", *JASA*, 2001
+|Rennies et al., "Energetic and Informational Components of Speech-on-Speech Masking", *Trends in Hearing*, 2019
+|Carter & Bidelman, "Lexical Influence on Informational Masking", *[Journal name not given]*, ~2021
+|Paul et al., "Enhancing Speech Intelligibility in TTS Using Speaking Style Conversion", *Interspeech*, 2020
+|Kidd & Conroy, "Auditory Informational Masking", *Acoustics Today*, 2023
 
 |**Main Contribution or Finding**
-|Introduces a transformer-based TTS model with improved naturalness
-|Presents a new method to model prosody across contexts
-|Provides a comprehensive review of neural and traditional TTS methods
-|Proposes a method for aligning text and prosody in read-aloud speech
-|Analyzes correlation of objective metrics with human ratings
+|Showed dominance of informational masking (IM) in speech-on-speech conditions, especially with similar target and masker characteristics
+|Demonstrated how spatial separation, gender, and reversal cues reduce IM; glimpsed speech isolates EM
+|Showed IM impacts phoneme categorization more than EM; revealed top-down lexical effects via neurophysiological evidence
+|Improved intelligibility of synthetic speech under masking via style conversion (Lombard + SSDRC)
+|Reviewed informational masking mechanisms and implications in auditory perception
 
 |**Type of Study**
-|Experimental
-|Experimental
+|Experimental (behavioral speech perception)
+|Experimental (behavioral + listening effort)
+|Experimental (ERP + behavioral)
+|Experimental (TTS synthesis + perception evaluation)
 |Review
-|Experimental
-|Theoretical + Experimental
 
 |**Relevance to Synthetic or Read-Aloud Speech**
 |Direct relevance to synthetic speech; benchmarked on TTS datasets
