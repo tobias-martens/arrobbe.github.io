@@ -1,52 +1,62 @@
-= Comparison of Five Research Papers on Speech Technologies
+= Masking in speech perception
 :author: Tobias Martens
 :date: 2025-07-25
-:toc: left
-:sectnums:
 
 == Introduction
 
-This document compares five academic papers based on the following aspects:
-- Authors, Title, Journal, Year
-- Main Contribution or Finding
-- Type of Study (experimental, theoretical, review)
-- Relevance to Synthetic or Read-Aloud Speech
+This document collects and summarises 5 key papers investigating masking in speech perception.
+Each source is compared in the table below by the following aspects
+
+    Authors, Title, Journal, Year
+    Main Contribution or Finding
+    Type of Study (experimental, theoretical, review)
+    Specific relevance to Synthetic or Read-Aloud Speech
 
 == Paper Comparison Table
 
 [cols="1,2,2,2,2,2", options="header"]
 |===
-|Aspect | Paper 1 | Paper 2 | Paper 3 | Paper 4 | Paper 5
+| Aspect 
+| Paper 1 
+| Paper 2 
+| Paper 3 
+| Paper 4 
+| Paper 5
 
-|**Authors, Title, Journal, Year**
-|Brungart, "Informational and Energetic Masking Effects", *JASA*, 2001
-|Rennies et al., "Energetic and Informational Components of Speech-on-Speech Masking", *Trends in Hearing*, 2019
-|Carter & Bidelman, "Lexical Influence on Informational Masking", *[Journal name not given]*, ~2021
-|Paul et al., "Enhancing Speech Intelligibility in TTS Using Speaking Style Conversion", *Interspeech*, 2020
-|Kidd & Conroy, "Auditory Informational Masking", *Acoustics Today*, 2023
+| **Authors, Title, Journal, Year**
+| Brungart, "Informational and Energetic Masking Effects", _JASA_, 2001
+| Cooke M., "A glimpsing model of speech perception in noise", _JASA_, 2006
+| Rennies et al., "Energetic and Informational Components of Speech-on-Speech Masking", _Trends in Hearing_, 2019
+| Paul et al., "Enhancing Speech Intelligibility in TTS Using Speaking Style Conversion", _Interspeech_, 2020
+| Kidd & Conroy, "Auditory Informational Masking", _Acoustics Today_, 2023
 
-|**Main Contribution or Finding**
-|Showed dominance of informational masking (IM) in speech-on-speech conditions, especially with similar target and masker characteristics
-|Demonstrated how spatial separation, gender, and reversal cues reduce IM; glimpsed speech isolates EM
-|Showed IM impacts phoneme categorization more than EM; revealed top-down lexical effects via neurophysiological evidence
-|Improved intelligibility of synthetic speech under masking via style conversion (Lombard + SSDRC)
-|Reviewed informational masking mechanisms and implications in auditory perception
+| **Main Contribution or Finding**
+| Informational (not energetic) masking is prominent for simultaneous speech signals, and highly dependent on the voice similarity.
+| Glimpses (spectro-temporal regions where the speech signal is more energetic than the background) help in distinguishing.
+| Unmasking cues such as masker gender, spatial separation, and time reversal improve speech intelligibility and reduce listening effort.
+| Lombard speaking style data and SSDRC (Spectral Shaping and Dynamic Range Compression) significantly improve TTS intelligibility.
+| Overview of auditory masking and key definitions.
 
-|**Type of Study**
-|Experimental (behavioral speech perception)
-|Experimental (behavioral + listening effort)
-|Experimental (ERP + behavioral)
-|Experimental (TTS synthesis + perception evaluation)
-|Review
+| **Type of Study**
+| Experimental
+| Theoretical
+| Experimental
+| Experimental
+| Review
 
-|**Relevance to Synthetic or Read-Aloud Speech**
-|Direct relevance to synthetic speech; benchmarked on TTS datasets
-|Relevant to prosodic features in synthetic speech
-|Strong relevance as a survey of synthetic speech technologies
-|Directly targets read-aloud speech synthesis improvements
-|Pertinent to evaluating synthetic speech quality
+| **Specific relevance to Synthetic or Read-Aloud Speech**
+| General
+| General
+| General
+| Synthetic
+| General
 |===
 
-== Summary
+== Short overview
 
-This comparison shows a diversity of contributions ranging from core model innovation to evaluation and prosody modeling. Papers 1, 4, and 5 are particularly relevant to practical synthetic or read-aloud speech applications.
+Masking describes the effect that the presence of other sound sources has on a target sound, for example speech from a specific person. Depending on strength and type of the masking sounds, the target sound may become unintelligible. Two types, 1. energetic masking (e.g. Gaussian noise overlay), and 2. informational masking (a collector term for all other effects imposed by e.g. human speech noise, including auditory but also psychological ones), are distinguished.
+
+We are quite good at distinguishing human target speech from white noise and also masking speech (cocktail party effect) by audiovisual cues and listening effort.
+Intelligibility of TTS speech as a target sound suffers more from background noise, but can be improved by using Lombard speaking style data and spectral shaping.
+
+
